@@ -1,0 +1,108 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+} /*PARA ZERA A PAGE*/
+
+body{
+    background: url(../imagem/fundo_galaxia.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    
+}
+
+header{
+    margin-top: 25px;
+
+}
+
+header nav ul{
+    margin-top: 15px;
+    display: flex;
+    gap: 47px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+header nav ul li{
+    transition: 0.8s;
+
+}
+
+header nav ul li:hover{
+    transform: scale(1.1s);
+
+}
+
+.produtos{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 30px;
+    flex-wrap: wrap;
+
+}
+
+.produtos h3{
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.produto span{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+.produto{
+    
+    padding: 20px;
+    border-radius: 8px;
+   
+    
+}
+
+.produto img{
+    margin: 20px;
+    width: 200px;
+    width: 300px;
+    height: 300px;
+    
+}
+
+.produto .botoes{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.botoes button {
+    border-radius: 5px;
+    max-width: 200px;
+    height: 30px;
+    border: 1px solid black ;
+    padding: 0 25px;
+    font-size: 15px;
+    transition: 1.3s;
+    cursor: pointer;
+    margin: 5px;
+
+
+}
